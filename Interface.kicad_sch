@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bc74ca8f-cd6f-4106-9a8b-e6d94e672084")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "~{IO}"
+		(shape input)
+		(at 77.47 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "576afe45-9cab-4999-939d-b7f112043777")
+	)
+	(hierarchical_label "~{Reset}"
+		(shape output)
+		(at 90.17 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "732742cb-91d5-4efa-a6a1-e85df804a9fc")
+	)
+	(hierarchical_label "R~{W}"
+		(shape input)
+		(at 77.47 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "941e1cd0-e41e-4745-befb-4758c292b4c1")
+	)
+	(hierarchical_label "Addr_{[0..7]}"
+		(shape input)
+		(at 77.47 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e1d06de-9aec-46ed-802d-0f517d8615ac")
+	)
+	(hierarchical_label "D_{[0..7]}"
+		(shape bidirectional)
+		(at 77.47 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d56b3b02-a019-4857-a14c-bf81e1d25fa8")
+	)
+	(hierarchical_label "Clk"
+		(shape output)
+		(at 90.17 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e919f866-1692-4ff1-8a1f-25211a556c22")
+	)
+)
