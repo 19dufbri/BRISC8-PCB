@@ -871,975 +871,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xx:74LS32"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LS32"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad 2-input OR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL Or2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?14*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS32_1_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_1_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_2_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_2_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_3_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_3_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_4_1"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_4_2"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_5_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS32_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2213,31 +1244,25 @@
 		(uuid "17cbe834-b951-4197-830f-f3075249f370")
 	)
 	(junction
-		(at 172.72 120.65)
+		(at 109.22 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1abf5158-3d92-441b-a24b-085a13f9c71f")
 	)
 	(junction
-		(at 198.12 133.35)
+		(at 134.62 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa57942-707d-4b73-a0d9-4e59305a6be0")
 	)
 	(junction
-		(at 210.82 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "300427ff-37e4-420f-9e90-62260dc5b07f")
-	)
-	(junction
-		(at 185.42 120.65)
+		(at 121.92 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37b57ef3-c4b2-4d80-bdcf-89ef522e6a31")
 	)
 	(junction
-		(at 172.72 133.35)
+		(at 109.22 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e9b0484-70f8-4c54-9868-997e754226c7")
@@ -2249,28 +1274,16 @@
 		(uuid "5ca1d302-7ca3-4b26-9cee-7054a0716cf9")
 	)
 	(junction
-		(at 45.72 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7488051e-741c-4663-8c89-4512684c9e26")
-	)
-	(junction
 		(at 200.66 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834f43d9-80e8-40eb-9af8-260806b3e18c")
 	)
 	(junction
-		(at 198.12 120.65)
+		(at 134.62 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d79a49-5dac-4ef0-af6b-5f53dca75a60")
-	)
-	(junction
-		(at 45.72 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d75fddfb-e932-4c47-ad50-9f6b11bef883")
 	)
 	(junction
 		(at 140.97 85.09)
@@ -2279,42 +1292,10 @@
 		(uuid "da0d8536-a528-4ab3-998c-20d133bee011")
 	)
 	(junction
-		(at 210.82 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3804405-9112-431f-9b2a-f4fd0165ed43")
-	)
-	(junction
-		(at 156.21 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec3989aa-9151-4e60-8eb9-ecb68222170b")
-	)
-	(junction
-		(at 45.72 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f50ad1de-0735-48fa-8f1f-cfbd7541df0d")
-	)
-	(junction
-		(at 185.42 133.35)
+		(at 121.92 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f751882b-b100-40ff-ba8c-57dfb11495b7")
-	)
-	(junction
-		(at 156.21 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7e49fe8-3cdd-462a-aec6-bb8c7128fa8e")
-	)
-	(no_connect
-		(at 63.5 175.26)
-		(uuid "0a6911a9-4d45-40a6-8695-5ebfcc299ddd")
-	)
-	(no_connect
-		(at 63.5 160.02)
-		(uuid "0a712e6b-b4d1-4c0e-b634-51d3df7546e7")
 	)
 	(no_connect
 		(at 123.19 55.88)
@@ -2782,16 +1763,6 @@
 		)
 		(uuid "05134d67-c457-4cd6-84d3-c78d288a472e")
 	)
-	(wire
-		(pts
-			(xy 156.21 114.3) (xy 156.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0568d15d-d5d6-47fa-827c-c6989de2c5e0")
-	)
 	(bus
 		(pts
 			(xy 130.81 85.09) (xy 140.97 85.09)
@@ -2844,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 185.42 123.19)
+			(xy 121.92 176.53) (xy 121.92 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2854,17 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 142.24) (xy 156.21 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12523594-3ecb-401a-84ab-be02b8d2da94")
-	)
-	(wire
-		(pts
-			(xy 185.42 133.35) (xy 172.72 133.35)
+			(xy 121.92 189.23) (xy 109.22 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2904,33 +1865,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 172.72 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca9a985-c159-4653-976a-b8fcafcd0126")
-	)
-	(wire
-		(pts
-			(xy 198.12 133.35) (xy 185.42 133.35)
+			(xy 134.62 189.23) (xy 121.92 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e993111-59ed-4141-a86b-1cbb378b5b00")
-	)
-	(wire
-		(pts
-			(xy 172.72 111.76) (xy 172.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc3384c-a603-4165-b831-3f5f0dde981b")
 	)
 	(bus
 		(pts
@@ -2961,16 +1902,6 @@
 			(type default)
 		)
 		(uuid "20eb9e81-37af-4faa-a543-1fd149330f2a")
-	)
-	(wire
-		(pts
-			(xy 172.72 142.24) (xy 172.72 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21346422-23f7-4e2b-9333-2d90e76593ea")
 	)
 	(wire
 		(pts
@@ -3104,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 210.82 120.65)
+			(xy 134.62 176.53) (xy 147.32 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3122,16 +2053,6 @@
 		)
 		(uuid "3c7888f9-7a52-48e1-8995-9686de16e9f7")
 	)
-	(wire
-		(pts
-			(xy 45.72 172.72) (xy 48.26 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4c5be8-8e0c-4c1b-9214-bb7bd163c8c7")
-	)
 	(bus
 		(pts
 			(xy 200.66 49.53) (xy 200.66 52.07)
@@ -3141,16 +2062,6 @@
 			(type default)
 		)
 		(uuid "3ee8fe33-b616-44a1-bbca-0c228eb5ab7d")
-	)
-	(wire
-		(pts
-			(xy 45.72 172.72) (xy 45.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404fea72-34ca-4450-bebf-c3c2dcf42c47")
 	)
 	(bus
 		(pts
@@ -3204,16 +2115,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 177.8) (xy 48.26 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "499f2e0b-012e-4105-9a01-bd577cd87f24")
-	)
-	(wire
-		(pts
 			(xy 123.19 45.72) (xy 128.27 45.72)
 		)
 		(stroke
@@ -3254,16 +2155,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 223.52 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc894c1-81bd-4d03-8ac9-f82b509defc8")
-	)
-	(wire
-		(pts
 			(xy 43.18 43.18) (xy 48.26 43.18)
 		)
 		(stroke
@@ -3284,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 210.82 123.19)
+			(xy 147.32 176.53) (xy 147.32 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3304,13 +2195,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 157.48) (xy 45.72 157.48)
+			(xy 109.22 173.99) (xy 109.22 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5212d687-a7b9-4199-b922-7cd77c9bc40e")
+		(uuid "53543f0d-9679-476b-9f85-2c351e364217")
 	)
 	(bus
 		(pts
@@ -3324,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 198.12 120.65)
+			(xy 121.92 176.53) (xy 134.62 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3351,26 +2242,6 @@
 			(type default)
 		)
 		(uuid "5e9ed0b2-a45b-42b7-b43e-e03af1af3091")
-	)
-	(wire
-		(pts
-			(xy 223.52 120.65) (xy 223.52 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f47a572-9732-4d38-8232-ace87a76d68a")
-	)
-	(wire
-		(pts
-			(xy 156.21 142.24) (xy 172.72 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60359a95-f159-42b2-b34b-a4d4ba59d8ec")
 	)
 	(wire
 		(pts
@@ -3444,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 133.35) (xy 198.12 133.35)
+			(xy 147.32 189.23) (xy 134.62 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3484,17 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 157.48) (xy 45.72 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "771748da-09f9-481b-b608-9260613d980f")
-	)
-	(wire
-		(pts
-			(xy 172.72 133.35) (xy 172.72 130.81)
+			(xy 109.22 189.23) (xy 109.22 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 198.12 123.19)
+			(xy 134.62 176.53) (xy 134.62 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3564,16 +2425,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 142.24) (xy 156.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b71bf5-a610-42eb-9b8c-861928044c6f")
-	)
-	(wire
-		(pts
 			(xy 173.99 46.99) (xy 179.07 46.99)
 		)
 		(stroke
@@ -3591,16 +2442,6 @@
 			(type default)
 		)
 		(uuid "8d4a3ac2-8e3e-4d6e-bbce-fc6abf652278")
-	)
-	(wire
-		(pts
-			(xy 45.72 177.8) (xy 45.72 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e4f461f-4cb3-4137-b181-72b00ca269c2")
 	)
 	(bus
 		(pts
@@ -3622,16 +2463,6 @@
 		)
 		(uuid "90c51a00-19f2-4bc4-94e7-f9781367051e")
 	)
-	(wire
-		(pts
-			(xy 223.52 130.81) (xy 223.52 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91352132-a68a-49e8-bc47-9acf4bbcabab")
-	)
 	(bus
 		(pts
 			(xy 181.61 62.23) (xy 181.61 64.77)
@@ -3641,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "940d823f-dfb3-4940-9421-d00d22c26aa0")
-	)
-	(wire
-		(pts
-			(xy 156.21 109.22) (xy 156.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94962ed4-ed5e-4792-a28b-fa749aafc48a")
 	)
 	(bus
 		(pts
@@ -3724,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 130.81) (xy 210.82 133.35)
+			(xy 147.32 186.69) (xy 147.32 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3784,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 172.72 120.65)
+			(xy 109.22 179.07) (xy 109.22 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 120.65) (xy 185.42 120.65)
+			(xy 109.22 176.53) (xy 121.92 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3921,26 +2742,6 @@
 			(type default)
 		)
 		(uuid "cfe64727-d3a5-434a-ba3d-3e98a4334590")
-	)
-	(wire
-		(pts
-			(xy 45.72 162.56) (xy 45.72 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0904fc7-d109-4313-9346-fe473eb3ad8d")
-	)
-	(wire
-		(pts
-			(xy 45.72 162.56) (xy 48.26 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09e8a73-0513-4c76-846e-aeb1538a06e3")
 	)
 	(bus
 		(pts
@@ -3964,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 185.42 133.35)
+			(xy 121.92 186.69) (xy 121.92 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4021,16 +2822,6 @@
 			(type default)
 		)
 		(uuid "d8de2344-735b-439c-a70f-152e0c7545be")
-	)
-	(wire
-		(pts
-			(xy 223.52 133.35) (xy 210.82 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db7650a5-785b-4e3b-999c-6cf38f43d92b")
 	)
 	(bus
 		(pts
@@ -4104,6 +2895,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 191.77) (xy 109.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f34393-94d8-4ea4-98c0-733fb0ad195d")
+	)
+	(wire
+		(pts
 			(xy 143.51 46.99) (xy 148.59 46.99)
 		)
 		(stroke
@@ -4114,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 130.81) (xy 198.12 133.35)
+			(xy 134.62 186.69) (xy 134.62 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4262,16 +3063,6 @@
 		)
 		(uuid "0c60d47b-2d11-4c15-a1ca-758cf0499608")
 	)
-	(label "~{PE_High}"
-		(at 97.79 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16c144e8-78fc-4b81-bc24-03c29808136e")
-	)
 	(label "B_{1}"
 		(at 233.68 44.45 0)
 		(effects
@@ -4322,16 +3113,6 @@
 		)
 		(uuid "30bc2705-e811-4d9e-8de9-ad18603bd7e4")
 	)
-	(label "~{PE_Low}"
-		(at 63.5 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31c063a7-7195-4016-8cbb-be2dc5134f8f")
-	)
 	(label "In_{4}"
 		(at 97.79 43.18 180)
 		(effects
@@ -4341,16 +3122,6 @@
 			(justify right bottom)
 		)
 		(uuid "37221120-6ead-4659-989c-f652bb69c52e")
-	)
-	(label "~{PE_Low}"
-		(at 48.26 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a380cfc-81ad-46f2-ba9d-933646f52c9c")
 	)
 	(label "PC_{0}"
 		(at 208.28 41.91 180)
@@ -4662,16 +3433,6 @@
 		)
 		(uuid "cf1af3fb-e4ee-47e0-84b5-d08372cf6587")
 	)
-	(label "~{PE_High}"
-		(at 63.5 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0d7deaf-32c4-4fa6-a0ec-948d9fe31fce")
-	)
 	(label "PC_{5}"
 		(at 148.59 54.61 180)
 		(effects
@@ -4702,17 +3463,6 @@
 		)
 		(uuid "f56bf335-6c78-4b9b-99e6-0b2be3c17444")
 	)
-	(hierarchical_label "~{LoadLow}"
-		(shape input)
-		(at 48.26 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02cf4986-d961-41e6-ba21-fb05b057ea4a")
-	)
 	(hierarchical_label "Count"
 		(shape input)
 		(at 48.26 58.42 180)
@@ -4734,17 +3484,6 @@
 			(justify right)
 		)
 		(uuid "2fb7faaa-7ed9-4334-9b4b-7bb606d90aa9")
-	)
-	(hierarchical_label "~{LoadHigh}"
-		(shape input)
-		(at 48.26 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3670749b-070a-4b6e-a3de-ee4aa627424c")
 	)
 	(hierarchical_label "Clock"
 		(shape input)
@@ -4790,17 +3529,6 @@
 		)
 		(uuid "655a4ba9-7768-4324-a232-60ab753e3948")
 	)
-	(hierarchical_label "~{Load}"
-		(shape input)
-		(at 48.26 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74519de5-8aef-46f9-8a95-34a26f34b280")
-	)
 	(hierarchical_label "~{Reset}"
 		(shape input)
 		(at 97.79 68.58 180)
@@ -4823,16 +3551,27 @@
 		)
 		(uuid "9c160384-9421-49fb-a5cb-f34c42f0e819")
 	)
-	(hierarchical_label "~{Load}"
+	(hierarchical_label "~{LoadHigh}"
 		(shape input)
-		(at 48.26 137.16 180)
+		(at 97.79 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e49fb7c6-b032-4c05-8ee9-23b1fe5a8ef9")
+		(uuid "ce42e1b7-2c10-42b0-86bb-529c6c0fce4a")
+	)
+	(hierarchical_label "~{LoadLow}"
+		(shape input)
+		(at 48.26 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dba5ed7c-6971-4f8e-8978-2f199265f048")
 	)
 	(hierarchical_label "B_{[0..7]}"
 		(shape output)
@@ -4877,110 +3616,6 @@
 			(justify left)
 		)
 		(uuid "f9fb0867-ee9b-4731-b090-002062a78efe")
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 55.88 160.02 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "091ba404-dbd2-46a2-83d4-12131c747442")
-		(property "Reference" "U805"
-			(at 55.88 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 55.88 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "650d6e52-0282-4f0c-96e1-690fdecfbfa6")
-		)
-		(pin "2"
-			(uuid "f1c81e2c-9b9c-4342-a26a-c8dbf5d42f07")
-		)
-		(pin "3"
-			(uuid "42d10501-49e5-4c25-a8e4-22c11d583623")
-		)
-		(pin "4"
-			(uuid "48b19b3a-e8b9-484b-bf91-c1edb45401e4")
-		)
-		(pin "5"
-			(uuid "cd9c1888-9a1d-49fe-8ba5-af6764ccae29")
-		)
-		(pin "11"
-			(uuid "08d40f2b-8f63-4a24-8c57-aa77abeaf148")
-		)
-		(pin "6"
-			(uuid "2e72bf3a-fa8b-4e1e-af56-8abe012626d2")
-		)
-		(pin "9"
-			(uuid "97887f56-9bb3-44cc-bd55-1b3d553fe35a")
-		)
-		(pin "10"
-			(uuid "71d9d2d9-f1db-4dd7-a8a1-8b4c92e76518")
-		)
-		(pin "8"
-			(uuid "fc4ee110-529d-43d5-a606-4141b29142c7")
-		)
-		(pin "14"
-			(uuid "2e940488-3adb-4ab5-a447-678eefc11f2e")
-		)
-		(pin "13"
-			(uuid "6dd71299-a57a-49da-a6be-75424c56bdbb")
-		)
-		(pin "12"
-			(uuid "041aa6ba-6c7d-44e3-9d8c-b008ecaebb28")
-		)
-		(pin "7"
-			(uuid "c48eb4ea-4ff0-4195-8bd7-7b3b61ba3caf")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "U805")
-					(unit 3)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -5180,320 +3815,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 55.88 134.62 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b16a83d-dda0-4e32-b770-999426a6ff16")
-		(property "Reference" "U805"
-			(at 55.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 55.88 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "650d6e52-0282-4f0c-96e1-690fdecfbfa6")
-		)
-		(pin "2"
-			(uuid "f1c81e2c-9b9c-4342-a26a-c8dbf5d42f07")
-		)
-		(pin "3"
-			(uuid "42d10501-49e5-4c25-a8e4-22c11d583623")
-		)
-		(pin "4"
-			(uuid "e3a78f51-cb00-4b5f-820a-b6a143b4d2da")
-		)
-		(pin "5"
-			(uuid "cff5ca85-b011-41ba-902c-1257632ab4aa")
-		)
-		(pin "11"
-			(uuid "08d40f2b-8f63-4a24-8c57-aa77abeaf148")
-		)
-		(pin "6"
-			(uuid "1e5f4754-1aa5-4347-8673-7aa0892c5bb3")
-		)
-		(pin "9"
-			(uuid "716c7707-082d-4ef1-a44d-53921bd8b44a")
-		)
-		(pin "10"
-			(uuid "08238fb8-48ce-4a9d-a9ca-1555d30441e4")
-		)
-		(pin "8"
-			(uuid "d83f27d5-fcb9-4af1-a586-7d0f36d4e67c")
-		)
-		(pin "14"
-			(uuid "2e940488-3adb-4ab5-a447-678eefc11f2e")
-		)
-		(pin "13"
-			(uuid "6dd71299-a57a-49da-a6be-75424c56bdbb")
-		)
-		(pin "12"
-			(uuid "041aa6ba-6c7d-44e3-9d8c-b008ecaebb28")
-		)
-		(pin "7"
-			(uuid "c48eb4ea-4ff0-4195-8bd7-7b3b61ba3caf")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "U805")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 55.88 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ca52da6-39c2-49e5-a109-ea069cec2816")
-		(property "Reference" "U805"
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 55.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5e6b13-3812-483f-b97d-724fe5a18643")
-		)
-		(pin "2"
-			(uuid "da9b50aa-a0da-46ad-9679-4cedef881db4")
-		)
-		(pin "3"
-			(uuid "a77c436d-ea9d-492e-a606-3b3824d094ee")
-		)
-		(pin "4"
-			(uuid "48b19b3a-e8b9-484b-bf91-c1edb45401e4")
-		)
-		(pin "5"
-			(uuid "cd9c1888-9a1d-49fe-8ba5-af6764ccae29")
-		)
-		(pin "11"
-			(uuid "08d40f2b-8f63-4a24-8c57-aa77abeaf148")
-		)
-		(pin "6"
-			(uuid "2e72bf3a-fa8b-4e1e-af56-8abe012626d2")
-		)
-		(pin "9"
-			(uuid "716c7707-082d-4ef1-a44d-53921bd8b44a")
-		)
-		(pin "10"
-			(uuid "08238fb8-48ce-4a9d-a9ca-1555d30441e4")
-		)
-		(pin "8"
-			(uuid "d83f27d5-fcb9-4af1-a586-7d0f36d4e67c")
-		)
-		(pin "14"
-			(uuid "2e940488-3adb-4ab5-a447-678eefc11f2e")
-		)
-		(pin "13"
-			(uuid "6dd71299-a57a-49da-a6be-75424c56bdbb")
-		)
-		(pin "12"
-			(uuid "041aa6ba-6c7d-44e3-9d8c-b008ecaebb28")
-		)
-		(pin "7"
-			(uuid "c48eb4ea-4ff0-4195-8bd7-7b3b61ba3caf")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "U805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 55.88 175.26 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e0b7e86-2e9a-4be3-959a-a0895026eb4a")
-		(property "Reference" "U805"
-			(at 55.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 55.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "650d6e52-0282-4f0c-96e1-690fdecfbfa6")
-		)
-		(pin "2"
-			(uuid "f1c81e2c-9b9c-4342-a26a-c8dbf5d42f07")
-		)
-		(pin "3"
-			(uuid "42d10501-49e5-4c25-a8e4-22c11d583623")
-		)
-		(pin "4"
-			(uuid "48b19b3a-e8b9-484b-bf91-c1edb45401e4")
-		)
-		(pin "5"
-			(uuid "cd9c1888-9a1d-49fe-8ba5-af6764ccae29")
-		)
-		(pin "11"
-			(uuid "cd87303a-4f4f-4a40-8ae3-8654c5746f1d")
-		)
-		(pin "6"
-			(uuid "2e72bf3a-fa8b-4e1e-af56-8abe012626d2")
-		)
-		(pin "9"
-			(uuid "716c7707-082d-4ef1-a44d-53921bd8b44a")
-		)
-		(pin "10"
-			(uuid "08238fb8-48ce-4a9d-a9ca-1555d30441e4")
-		)
-		(pin "8"
-			(uuid "d83f27d5-fcb9-4af1-a586-7d0f36d4e67c")
-		)
-		(pin "14"
-			(uuid "2e940488-3adb-4ab5-a447-678eefc11f2e")
-		)
-		(pin "13"
-			(uuid "63ef2b72-b6ab-48da-9f9d-a1aecc6a5b35")
-		)
-		(pin "12"
-			(uuid "5d3bbfba-ad59-4d86-bf72-33b6882dd546")
-		)
-		(pin "7"
-			(uuid "c48eb4ea-4ff0-4195-8bd7-7b3b61ba3caf")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "U805")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 172.72 127 0)
+		(at 109.22 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5502,7 +3825,7 @@
 		(fields_autoplaced yes)
 		(uuid "4726a447-fe07-4b94-9ad1-3789153babda")
 		(property "Reference" "C801"
-			(at 176.53 125.7299 0)
+			(at 113.03 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +3834,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 176.53 128.2699 0)
+			(at 113.03 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +3843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.6852 130.81 0)
+			(at 110.1852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +3852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 127 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +3861,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 127 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +4084,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 127 0)
+		(at 121.92 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5770,7 +4093,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e08d5de-9159-474a-b905-25bcd1032809")
 		(property "Reference" "C802"
-			(at 189.23 125.7299 0)
+			(at 125.73 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +4102,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 189.23 128.2699 0)
+			(at 125.73 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +4111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.3852 130.81 0)
+			(at 122.8852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +4120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 127 0)
+			(at 121.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +4129,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 127 0)
+			(at 121.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +4568,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 127 0)
+		(at 147.32 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6254,7 +4577,7 @@
 		(fields_autoplaced yes)
 		(uuid "be6f9f45-e286-4937-b73b-241b3bbe9ba4")
 		(property "Reference" "C804"
-			(at 214.63 125.7299 0)
+			(at 151.13 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +4586,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 214.63 128.2699 0)
+			(at 151.13 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +4595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.7852 130.81 0)
+			(at 148.2852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +4604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 127 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +4613,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 127 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,114 +4637,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 156.21 127 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0b317b8-4d40-47cc-b37c-b92d66272761")
-		(property "Reference" "U805"
-			(at 162.56 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 162.56 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 156.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 156.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "650d6e52-0282-4f0c-96e1-690fdecfbfa6")
-		)
-		(pin "2"
-			(uuid "f1c81e2c-9b9c-4342-a26a-c8dbf5d42f07")
-		)
-		(pin "3"
-			(uuid "42d10501-49e5-4c25-a8e4-22c11d583623")
-		)
-		(pin "4"
-			(uuid "48b19b3a-e8b9-484b-bf91-c1edb45401e4")
-		)
-		(pin "5"
-			(uuid "cd9c1888-9a1d-49fe-8ba5-af6764ccae29")
-		)
-		(pin "11"
-			(uuid "08d40f2b-8f63-4a24-8c57-aa77abeaf148")
-		)
-		(pin "6"
-			(uuid "2e72bf3a-fa8b-4e1e-af56-8abe012626d2")
-		)
-		(pin "9"
-			(uuid "716c7707-082d-4ef1-a44d-53921bd8b44a")
-		)
-		(pin "10"
-			(uuid "08238fb8-48ce-4a9d-a9ca-1555d30441e4")
-		)
-		(pin "8"
-			(uuid "d83f27d5-fcb9-4af1-a586-7d0f36d4e67c")
-		)
-		(pin "14"
-			(uuid "f676dee7-3586-4ae3-b7de-d3dbe54d7894")
-		)
-		(pin "13"
-			(uuid "6dd71299-a57a-49da-a6be-75424c56bdbb")
-		)
-		(pin "12"
-			(uuid "041aa6ba-6c7d-44e3-9d8c-b008ecaebb28")
-		)
-		(pin "7"
-			(uuid "dfa90381-b31b-49e0-ae7b-7219cb1fa41e")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "U805")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 156.21 109.22 0)
+		(at 109.22 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6430,7 +4647,7 @@
 		(fields_autoplaced yes)
 		(uuid "c12f9ef8-18fd-4e7b-9cd2-0c50d1f0fd47")
 		(property "Reference" "#PWR0811"
-			(at 156.21 113.03 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +4656,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 156.21 104.14 0)
+			(at 109.22 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +4664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 109.22 0)
+			(at 109.22 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +4673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 109.22 0)
+			(at 109.22 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +4682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 109.22 0)
+			(at 109.22 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,76 +4835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 223.52 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb8bd109-20ae-4994-9aab-e07f2fbbe8c6")
-		(property "Reference" "C805"
-			(at 227.33 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 227.33 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.4852 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6585cbd-b59b-4e3f-b7d4-7ce0f35376b0")
-		)
-		(pin "1"
-			(uuid "d5e1608f-4768-4f42-9a80-53f84e11ae44")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "C805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC245")
 		(at 220.98 54.61 0)
 		(unit 1)
@@ -6813,7 +4960,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 127 0)
+		(at 134.62 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6822,7 +4969,7 @@
 		(fields_autoplaced yes)
 		(uuid "e15440ee-851d-47b6-b17e-a6240ee7be91")
 		(property "Reference" "C803"
-			(at 201.93 125.7299 0)
+			(at 138.43 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +4978,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 201.93 128.2699 0)
+			(at 138.43 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +4987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.0852 130.81 0)
+			(at 135.5852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +4996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 127 0)
+			(at 134.62 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +5005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 127 0)
+			(at 134.62 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,72 +5023,6 @@
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
 					(reference "C803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f83b14d5-87cb-4624-a5da-700e470a00e2")
-		(property "Reference" "#PWR0813"
-			(at 45.72 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f29d126-883e-4912-b91e-146675ade007")
-		)
-		(instances
-			(project "BRISC8"
-				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100/0c7a1bf0-e6ae-42c1-a12c-9c71b98ed1be"
-					(reference "#PWR0813")
 					(unit 1)
 				)
 			)
@@ -7014,7 +5095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 144.78 0)
+		(at 109.22 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7023,7 +5104,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd625a26-d64d-409d-85aa-5ee2c43054c3")
 		(property "Reference" "#PWR0812"
-			(at 156.21 151.13 0)
+			(at 109.22 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +5113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 149.86 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +5121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 144.78 0)
+			(at 109.22 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +5130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 144.78 0)
+			(at 109.22 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +5139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 144.78 0)
+			(at 109.22 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
