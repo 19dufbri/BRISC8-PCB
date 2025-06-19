@@ -1714,7 +1714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0480b739-f5ae-4fb2-825e-b4e365f5f23a")
-		(property "Reference" "#PWR01417"
+		(property "Reference" "#PWR0602"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR01417")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ca2021-1213-4c55-b255-b4704db45047")
-		(property "Reference" "#PWR01416"
+		(property "Reference" "#PWR0603"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR01416")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -1846,7 +1846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2847147d-0114-4d34-869a-26f9fa26e0b1")
-		(property "Reference" "U1409"
+		(property "Reference" "U602"
 			(at 146.9233 38.1 0)
 			(effects
 				(font
@@ -1942,7 +1942,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "U1409")
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -1958,7 +1958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2efec86f-635e-4e19-ab31-1dd6a5edda35")
-		(property "Reference" "U1408"
+		(property "Reference" "U601"
 			(at 87.2333 38.1 0)
 			(effects
 				(font
@@ -2054,7 +2054,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "U1408")
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91bc186-b9f9-41ac-bff8-7025365bf7b8")
-		(property "Reference" "#PWR01415"
+		(property "Reference" "#PWR0601"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR01415")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf235af7-3614-4e09-adf5-8d1077854ef6")
-		(property "Reference" "#PWR01418"
+		(property "Reference" "#PWR0604"
 			(at 144.78 92.71 0)
 			(effects
 				(font
@@ -2186,7 +2186,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR01418")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)

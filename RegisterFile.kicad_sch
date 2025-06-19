@@ -974,6 +974,26 @@
 		)
 		(uuid "13643a14-c433-4836-87ab-2d0cc639978a")
 	)
+	(wire
+		(pts
+			(xy 34.29 30.48) (xy 33.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14125a57-cdfe-46d3-ad19-e3ffbf238661")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 33.02 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f5755a-2a7b-4c9f-a6aa-385e5ac8e4dd")
+	)
 	(bus
 		(pts
 			(xy 78.74 38.1) (xy 81.28 38.1)
@@ -1234,6 +1254,16 @@
 		)
 		(uuid "6cf41c88-7f1b-4365-b670-3239ca345160")
 	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 33.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e402562-3a5f-4306-974c-443fc90f1c9e")
+	)
 	(bus
 		(pts
 			(xy 184.15 21.59) (xy 184.15 49.53)
@@ -1383,6 +1413,16 @@
 			(type default)
 		)
 		(uuid "bb5dc47f-1d59-4f86-8324-42a2c874a4db")
+	)
+	(wire
+		(pts
+			(xy 34.29 50.8) (xy 33.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb60eafa-adf7-4a4b-af6f-8cf9367fd7da")
 	)
 	(bus
 		(pts
@@ -2007,17 +2047,6 @@
 		)
 		(uuid "0eda1765-6451-4c63-84b5-90419a17bbb6")
 	)
-	(hierarchical_label "~{OE_A}"
-		(shape input)
-		(at 34.29 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17dc4474-9269-4791-8c5d-beee3e918c10")
-	)
 	(hierarchical_label "Clock"
 		(shape input)
 		(at 158.75 34.29 180)
@@ -2105,17 +2134,6 @@
 			(justify right)
 		)
 		(uuid "8f8cee93-41e8-4471-ae83-cb46bb1a0b01")
-	)
-	(hierarchical_label "~{OE_B}"
-		(shape input)
-		(at 34.29 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90b4a89f-e1ee-44ac-acf5-7fb280fb96f7")
 	)
 	(hierarchical_label "RA_{[0..1]}"
 		(shape input)
@@ -2426,6 +2444,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4d5c21-55a5-49da-a726-341a9f19ffd9")
+		(property "Reference" "#PWR01401"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8fdacc7-5c66-46a5-b9b7-55f1d193c307")
+		)
+		(instances
+			(project "BRISC8"
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
+					(reference "#PWR01401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS139")
 		(at 60.96 115.57 0)
 		(unit 3)
@@ -2435,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44bb3911-fbd1-43a6-9e60-4ac3ab2c6d9e")
-		(property "Reference" "U1207"
+		(property "Reference" "U1402"
 			(at 67.31 114.2999 0)
 			(effects
 				(font
@@ -2531,7 +2615,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "U1207")
+					(reference "U1402")
 					(unit 3)
 				)
 			)
@@ -2547,7 +2631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482af0f8-afd0-44f9-888c-e20ed9da680e")
-		(property "Reference" "#PWR01420"
+		(property "Reference" "#PWR01403"
 			(at 39.37 101.6 0)
 			(effects
 				(font
@@ -2597,7 +2681,7 @@
 		(instances
 			(project ""
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "#PWR01420")
+					(reference "#PWR01403")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b976e2e-70e5-4088-b80d-ea6bddc4923e")
-		(property "Reference" "U1208"
+		(property "Reference" "U1403"
 			(at 104.14 35.56 0)
 			(effects
 				(font
@@ -2707,7 +2791,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "U1208")
+					(reference "U1403")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d72814f-fc17-4a7b-ad22-f5aec5148e74")
-		(property "Reference" "#PWR01419"
+		(property "Reference" "#PWR01404"
 			(at 39.37 139.7 0)
 			(effects
 				(font
@@ -2773,7 +2857,7 @@
 		(instances
 			(project ""
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "#PWR01419")
+					(reference "#PWR01404")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98c5ab57-0774-4bdc-9687-59a7ec2b5493")
-		(property "Reference" "U1206"
+		(property "Reference" "U1401"
 			(at 45.72 114.2999 0)
 			(effects
 				(font
@@ -2885,8 +2969,74 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "U1206")
+					(reference "U1401")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2401251-ab1f-4f9f-942a-9c6d11463faa")
+		(property "Reference" "#PWR01402"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56cb981b-5ed4-4d31-9832-cc3b5aee2d15")
+		)
+		(instances
+			(project ""
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
+					(reference "#PWR01402")
+					(unit 1)
 				)
 			)
 		)
@@ -2901,7 +3051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac3f612-9b5b-41f4-bc92-e97cf3c442f4")
-		(property "Reference" "C1406"
+		(property "Reference" "C1401"
 			(at 83.82 114.2999 0)
 			(effects
 				(font
@@ -2955,7 +3105,7 @@
 		(instances
 			(project ""
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "C1406")
+					(reference "C1401")
 					(unit 1)
 				)
 			)
@@ -3081,7 +3231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe74dd73-bf05-423f-b48e-3b38d5d60ab8")
-		(property "Reference" "C1407"
+		(property "Reference" "C1402"
 			(at 97.79 114.2999 0)
 			(effects
 				(font
@@ -3135,7 +3285,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/ded358fb-ee52-4096-a32a-0cce52708100"
-					(reference "C1407")
+					(reference "C1402")
 					(unit 1)
 				)
 			)
