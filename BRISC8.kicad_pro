@@ -664,6 +664,10 @@
     [
       "ded358fb-ee52-4096-a32a-0cce52708100",
       "Register File"
+    ],
+    [
+      "f6a5c9d4-97f3-4e7f-987b-0b47f7b26454",
+      "InstructionDecode"
     ]
   ],
   "text_variables": {}

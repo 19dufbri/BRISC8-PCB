@@ -15,7 +15,7 @@
 	(lib_symbols)
 	(sheet
 		(at 93.98 53.34)
-		(size 39.37 31.75)
+		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -39,12 +39,72 @@
 			)
 		)
 		(property "Sheetfile" "BRISC8 CPU.kicad_sch"
-			(at 93.98 85.6746 0)
+			(at 93.98 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Data_{[0..7]}" bidirectional
+			(at 118.11 55.88 0)
+			(uuid "6d2eb05b-7fb5-4b8b-a236-45e0c15dbebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Addr_{[0..7]}" output
+			(at 118.11 58.42 0)
+			(uuid "1a6cc32d-0ce2-4d4f-8405-bd2cc625321c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Read{slash}~{Write}" output
+			(at 118.11 60.96 0)
+			(uuid "24794e8b-5836-41c8-8ec3-01777cde1706")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO{slash}~{Memory}" output
+			(at 118.11 63.5 0)
+			(uuid "ccefa760-52cf-48a3-88ff-534069146601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Clock" input
+			(at 93.98 55.88 180)
+			(uuid "af9f2afd-73ab-4eaf-8a62-5014bc5a36a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Reset}" input
+			(at 93.98 58.42 180)
+			(uuid "3eb6d5c6-82f6-4163-ac30-b238c322480c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

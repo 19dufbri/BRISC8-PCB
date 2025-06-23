@@ -2603,16 +2603,6 @@
 		)
 		(uuid "c2b0e1c5-465f-43a9-bdea-96f293e0bcc2")
 	)
-	(label "XOR_{[0..7]}"
-		(at 106.68 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2fb3ab8-f5f4-42b7-8ecc-7aec8c9dd3d8")
-	)
 	(label "XOR_{2}"
 		(at 92.71 133.35 0)
 		(effects
@@ -2693,6 +2683,16 @@
 		)
 		(uuid "f50c2ad0-fb09-4ed6-8da8-02dd59ad7230")
 	)
+	(label "XOR_{[0..7]}"
+		(at 106.68 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f69f512d-d6b4-450e-b067-f91082c3063e")
+	)
 	(label "InA_{7}"
 		(at 50.8 119.38 0)
 		(effects
@@ -2712,6 +2712,16 @@
 			(justify left bottom)
 		)
 		(uuid "f88546a3-e5c6-42f3-a474-e065c70af321")
+	)
+	(label "XOR_{[0..7]}"
+		(at 106.68 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f904eaff-1131-464f-ac65-530ec7c6e6b2")
 	)
 	(label "AND_{[0..3]}"
 		(at 62.23 33.02 0)
@@ -3079,29 +3089,9 @@
 				(justify right)
 			)
 		)
-		(pin "InD_{[0..7]}" input
-			(at 105.41 41.91 180)
-			(uuid "8d68f47b-0497-4058-91a6-e5ce4fabf545")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "InA_{[0..7]}" input
 			(at 105.41 34.29 180)
 			(uuid "69fe3ebb-6e1b-4172-b6e0-e17c3f4b6927")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "InC_{[0..7]}" input
-			(at 105.41 39.37 180)
-			(uuid "eb05859f-f0b3-4cb4-9c94-494a0c2d7cbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,9 +3109,9 @@
 				(justify left)
 			)
 		)
-		(pin "InB_{[0..7]}" input
-			(at 105.41 36.83 180)
-			(uuid "ab535295-3946-4884-b48b-9cfff6d514bd")
+		(pin "OP_{[0..1]}" input
+			(at 105.41 46.99 180)
+			(uuid "770de2d0-0c4c-4a7f-896c-bcc67f61ec1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,9 +3119,29 @@
 				(justify left)
 			)
 		)
-		(pin "OP_{[0..1]}" input
-			(at 105.41 46.99 180)
-			(uuid "770de2d0-0c4c-4a7f-896c-bcc67f61ec1d")
+		(pin "AND_{[0..7]}" input
+			(at 105.41 36.83 180)
+			(uuid "12f975d8-a8a8-482c-811f-b2d41fc89b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADD_{[0..7]}" input
+			(at 105.41 41.91 180)
+			(uuid "eb0d499a-3aa6-403f-bd4e-ab39057994e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XOR_{[0..7]}" input
+			(at 105.41 39.37 180)
+			(uuid "0a3c5f9e-c3a5-4b93-92ac-5aec2c355df1")
 			(effects
 				(font
 					(size 1.27 1.27)
