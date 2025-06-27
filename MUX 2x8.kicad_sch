@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2b08f415-cb6d-43d2-9168-6197a0536673")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "BRISC8 CPU")
+		(date "2025-06-26")
+		(rev "v1.0.0")
+		(company "Brian Duffy")
+		(comment 3 "Compatible with the BRISC8 assembler and compiler suite.")
+		(comment 4 "Simple 8-bit RISC CPU designed by Brian Duffy to explore the lowest level of computing.")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS257"
 			(pin_names
@@ -386,6 +394,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -614,6 +761,12 @@
 		)
 	)
 	(junction
+		(at 86.36 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0615f456-9c6e-4c38-9fce-e41fb3aa50c9")
+	)
+	(junction
 		(at 167.64 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -630,6 +783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9983070-b89f-4804-aae6-80bf41abca3f")
+	)
+	(junction
+		(at 86.36 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9343fef-5743-4d97-a2eb-e35ab63fefe1")
 	)
 	(bus_entry
 		(at 116.84 68.58)
@@ -847,6 +1006,16 @@
 		)
 		(uuid "f83a915f-43dd-4041-a28e-60a03fbf4212")
 	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 86.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bd1b1c-cf26-4936-bda6-9fd91e39d69c")
+	)
 	(bus
 		(pts
 			(xy 167.64 93.98) (xy 170.18 93.98)
@@ -949,6 +1118,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 140.97) (xy 86.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f59ca19-fab2-47c2-a231-f1b84f008141")
+	)
+	(wire
+		(pts
 			(xy 97.79 68.58) (xy 105.41 68.58)
 		)
 		(stroke
@@ -966,6 +1145,16 @@
 			(type default)
 		)
 		(uuid "449fb9bb-1e0a-4ab6-8599-c7ba5a08a39d")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48614bc1-7c03-48bd-b628-6bcb872e26f5")
 	)
 	(bus
 		(pts
@@ -996,6 +1185,16 @@
 			(type default)
 		)
 		(uuid "5d575535-a2f2-430f-9c25-432919bba5f3")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 99.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee317ae-4e95-41be-8807-29b85d4a544f")
 	)
 	(wire
 		(pts
@@ -1077,6 +1276,16 @@
 		)
 		(uuid "7fe9660d-9807-4f5d-b5ac-234017650a6d")
 	)
+	(wire
+		(pts
+			(xy 86.36 128.27) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82aafa99-1465-42e3-be9b-9142ada33f07")
+	)
 	(bus
 		(pts
 			(xy 60.96 27.94) (xy 60.96 43.18)
@@ -1157,6 +1366,16 @@
 		)
 		(uuid "959e5c9a-1020-4518-8ab1-0a56983320fc")
 	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4f343f-6f5d-434c-8db7-ab3d64a39e7a")
+	)
 	(bus
 		(pts
 			(xy 54.61 27.94) (xy 60.96 27.94)
@@ -1226,6 +1445,16 @@
 			(type default)
 		)
 		(uuid "b8026714-a0b6-4b4f-bb58-0be39c1c71f2")
+	)
+	(wire
+		(pts
+			(xy 99.06 128.27) (xy 99.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92bacd6-7568-4e10-ba1f-d2eb1c895630")
 	)
 	(bus
 		(pts
@@ -1336,6 +1565,16 @@
 			(type default)
 		)
 		(uuid "dcdd3e5d-0800-42d9-842b-afac794bd7d1")
+	)
+	(wire
+		(pts
+			(xy 86.36 125.73) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e314b6f7-fbfc-4160-ab4e-52c0565cf729")
 	)
 	(bus
 		(pts
@@ -1714,7 +1953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0480b739-f5ae-4fb2-825e-b4e365f5f23a")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0603"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -1764,7 +2003,73 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR0602")
+					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18aaa6ef-ae31-4a48-a300-75c74be71aab")
+		(property "Reference" "#PWR0606"
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7acec4b7-088c-4508-8f31-9768f00c7536")
+		)
+		(instances
+			(project ""
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -1780,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ca2021-1213-4c55-b255-b4704db45047")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0602"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -1830,7 +2135,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
-					(reference "#PWR0603")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -1855,7 +2160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS257"
+		(property "Value" "74HC257"
 			(at 146.9233 40.64 0)
 			(effects
 				(font
@@ -1864,7 +2169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -1967,7 +2272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS257"
+		(property "Value" "74HC257"
 			(at 87.2333 40.64 0)
 			(effects
 				(font
@@ -1976,7 +2281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -2062,6 +2367,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 86.36 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f4c827-c509-41e7-98e1-93b769c22de5")
+		(property "Reference" "#PWR0605"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77870bf1-2b94-482e-a132-7ad3196175d4")
+		)
+		(instances
+			(project ""
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 85.09 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2121,6 +2492,146 @@
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acee2975-31ff-4f33-9f64-7af811fd387f")
+		(property "Reference" "C602"
+			(at 102.87 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 102.87 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 100.0252 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69ad8e4-d362-46f3-9952-acb8bb258857")
+		)
+		(pin "2"
+			(uuid "d0e922d0-f1c6-40ec-a306-3af8d83e7633")
+		)
+		(instances
+			(project "BRISC8"
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
+					(reference "C602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a87be2-d516-4652-accd-6d5f69e96ee6")
+		(property "Reference" "C601"
+			(at 90.17 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 90.17 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 87.3252 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf13844-f773-48f2-b1ff-fc26f4c2c067")
+		)
+		(pin "2"
+			(uuid "80fecf7a-c81c-4608-8962-7efc8a3438b5")
+		)
+		(instances
+			(project ""
+				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/5793eec4-481b-48e8-b2cb-f88bcf76a93f"
+					(reference "C601")
 					(unit 1)
 				)
 			)

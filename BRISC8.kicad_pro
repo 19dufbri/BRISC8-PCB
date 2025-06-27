@@ -668,6 +668,26 @@
     [
       "f6a5c9d4-97f3-4e7f-987b-0b47f7b26454",
       "InstructionDecode"
+    ],
+    [
+      "7917c735-2a94-4a48-baa4-6e908410d27e",
+      "Memory"
+    ],
+    [
+      "bf381468-0aad-4dc6-88f5-e9e116bb5ff3",
+      "IO Block"
+    ],
+    [
+      "0fc5870e-d017-46f0-99f0-bf2c50fee572",
+      "Input Switches"
+    ],
+    [
+      "8cf430f1-833d-4711-b9c7-ddccfffc96a7",
+      "7-Segment Ouput"
+    ],
+    [
+      "ba3d015c-a00c-4c1b-9d25-e76714759bcb",
+      "Clock & Reset"
     ]
   ],
   "text_variables": {}

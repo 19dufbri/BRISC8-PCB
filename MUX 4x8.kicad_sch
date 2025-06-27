@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "BRISC8 CPU")
-		(date "2025-06-05")
+		(date "2025-06-26")
 		(rev "v1.0.0")
 		(company "Brian Duffy")
 		(comment 3 "Compatible with the BRISC8 assembler and compiler suite.")
@@ -3919,7 +3919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683bcd88")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0505"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -3968,7 +3968,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0504")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3983,7 +3983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683bd35c")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0501"
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0503")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -4111,7 +4111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683d3a45")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0502"
 			(at 124.46 52.07 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0505")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4175,7 +4175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683e2dea")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0507"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -4224,7 +4224,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0508")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683e2df0")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0503"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0507")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683e2e37")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR0508"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0510")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683e2e3d")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0504"
 			(at 231.14 52.07 0)
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0509")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS253"
+		(property "Value" "74HC253"
 			(at 77.47 52.07 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 72.39 73.66 0)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS253"
+		(property "Value" "74HC253"
 			(at 129.54 52.07 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 124.46 73.66 0)
 			(effects
 				(font
@@ -4657,7 +4657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 90.17 138.4299 0)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 87.3252 140.97 0)
 			(effects
 				(font
@@ -4727,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 64.77 138.4299 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 61.9252 140.97 0)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS253"
+		(property "Value" "74HC253"
 			(at 236.22 52.07 0)
 			(effects
 				(font
@@ -4803,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 231.14 73.66 0)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 77.47 138.4299 0)
 			(effects
 				(font
@@ -4914,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 74.6252 140.97 0)
 			(effects
 				(font
@@ -4975,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 102.87 138.4299 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 100.0252 140.97 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce516dd6-25a7-4cb8-8f33-e6a8f9c59bdd")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0510"
 			(at 60.96 152.4 0)
 			(effects
 				(font
@@ -5086,7 +5086,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0502")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS253"
+		(property "Value" "74HC253"
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 179.07 73.66 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4e3e65-da28-49bb-b5ce-f62c0a420954")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0509"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/552835a5-6095-4031-9dab-7ccc78242c9c"
-					(reference "#PWR0501")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)

@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "591ebf12-aa12-408e-aafc-3f26fd5d4c95")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "BRISC8 CPU")
+		(date "2025-06-26")
+		(rev "v1.0.0")
+		(company "Brian Duffy")
+		(comment 3 "Compatible with the BRISC8 assembler and compiler suite.")
+		(comment 4 "Simple 8-bit RISC CPU designed by Brian Duffy to explore the lowest level of computing.")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC245"
 			(pin_names
@@ -1352,6 +1360,166 @@
 		)
 		(uuid "efe3a93d-adf6-4c92-b5b4-91a3d25fba7c")
 	)
+	(label "B_{7}"
+		(at 133.35 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16b777fc-f671-4894-ad86-6eeadfb50967")
+	)
+	(label "A_{4}"
+		(at 92.71 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ecdf081-5de3-48be-b9eb-2ea3338776bd")
+	)
+	(label "B_{4}"
+		(at 133.35 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "403f6e5f-fcdb-423e-92f7-e0dda4d61690")
+	)
+	(label "A_{1}"
+		(at 92.71 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a455e95-be3b-4955-a2f0-07dea3a42a1c")
+	)
+	(label "A_{0}"
+		(at 92.71 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60eb433b-5436-47b7-a572-502dddee675c")
+	)
+	(label "B_{6}"
+		(at 133.35 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "682ed42a-32b7-4fd6-91fb-6507b17da597")
+	)
+	(label "A_{5}"
+		(at 92.71 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a0b70f3-6c28-4478-bff5-854c31c8058a")
+	)
+	(label "B_{0}"
+		(at 133.35 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b222b78-0164-4461-9d79-5fd4b086f8b4")
+	)
+	(label "A_{2}"
+		(at 92.71 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a08b56f4-171f-4d48-b2f1-49fc04c1e979")
+	)
+	(label "B_{3}"
+		(at 133.35 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd7c3db9-3863-45a6-8c47-d17d24688a76")
+	)
+	(label "A_{7}"
+		(at 92.71 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0c9d2bb-e94c-48f8-84cd-3d8cf55f7b34")
+	)
+	(label "B_{1}"
+		(at 133.35 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfb532ff-4ac4-413c-9c0b-90780c6a80d0")
+	)
+	(label "B_{2}"
+		(at 133.35 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4ce6558-f05b-44a5-859f-36ec3e0c1973")
+	)
+	(label "B_{5}"
+		(at 133.35 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f09368d4-2c28-4cf4-8519-66e8a3f1fc68")
+	)
+	(label "A_{3}"
+		(at 92.71 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1795440-6599-42f6-82c5-d848c7696e40")
+	)
+	(label "A_{6}"
+		(at 92.71 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8e6fd75-066a-4f74-b5fe-438710c25796")
+	)
 	(hierarchical_label "~{CE}"
 		(shape input)
 		(at 100.33 90.17 180)
@@ -1406,7 +1574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea55181-8bd0-4056-bfcb-df040c8635d8")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR0804"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -1456,7 +1624,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/91ebbdfa-d43d-4c9d-8ef6-4e72d6db27fd"
-					(reference "#PWR0802")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -1472,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "432f66c0-989c-4c19-b8ff-fe057bc68e91")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR0801"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -1522,7 +1690,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/91ebbdfa-d43d-4c9d-8ef6-4e72d6db27fd"
-					(reference "#PWR0803")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -1538,7 +1706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86eabdf0-ec15-40c8-8785-e4a558569a46")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR0802"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -1588,7 +1756,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/91ebbdfa-d43d-4c9d-8ef6-4e72d6db27fd"
-					(reference "#PWR0804")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1604,7 +1772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf566c74-cc35-4ec6-a6ca-46869ed2a6f9")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR0803"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -1654,7 +1822,7 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/91ebbdfa-d43d-4c9d-8ef6-4e72d6db27fd"
-					(reference "#PWR0801")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1688,7 +1856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -1803,7 +1971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 85.09 118.1099 0)
 			(effects
 				(font
@@ -1812,7 +1980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 82.2452 120.65 0)
 			(effects
 				(font

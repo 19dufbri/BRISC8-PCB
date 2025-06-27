@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "BRISC8 CPU")
-		(date "2025-06-05")
+		(date "2025-06-26")
 		(rev "v1.0.0")
 		(company "Brian Duffy")
 		(comment 3 "Compatible with the BRISC8 assembler and compiler suite.")
@@ -3125,13 +3125,13 @@
 		(uuid "0041e4dd-b4e7-4691-80f3-2fde77f79b01")
 	)
 	(junction
-		(at 203.2 107.95)
+		(at 186.69 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0abe5c58-63e9-4fa7-80c1-6bf9e5670e9c")
 	)
 	(junction
-		(at 251.46 129.54)
+		(at 234.95 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "129f1414-18bc-46bf-96bc-984df5bb0943")
@@ -3155,7 +3155,7 @@
 		(uuid "24017add-4a0c-4451-b400-5a3c52c84828")
 	)
 	(junction
-		(at 241.3 116.84)
+		(at 224.79 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "314a83de-8db4-4336-bb16-c2867d96ef61")
@@ -3167,7 +3167,7 @@
 		(uuid "36605829-8e02-4b8a-a7c8-66efce8b461d")
 	)
 	(junction
-		(at 138.43 138.43)
+		(at 121.92 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "366b536b-d65f-4b5c-989a-d90a0f7bafac")
@@ -3185,13 +3185,13 @@
 		(uuid "4321b618-7b31-4e42-a062-80881ddd435f")
 	)
 	(junction
-		(at 181.61 138.43)
+		(at 165.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "455fba52-27aa-4fd7-b55d-e5643b29e451")
 	)
 	(junction
-		(at 203.2 138.43)
+		(at 186.69 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b3e877e-f0dd-4053-81f6-135e6ef03851")
@@ -3203,7 +3203,7 @@
 		(uuid "4d102495-1dc5-4d6d-b28a-0aeba381bcd1")
 	)
 	(junction
-		(at 220.98 116.84)
+		(at 204.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5676145e-fb71-4e67-a089-18000a34e95b")
@@ -3215,7 +3215,7 @@
 		(uuid "57437777-9788-4caa-8423-76a8adfe712b")
 	)
 	(junction
-		(at 181.61 107.95)
+		(at 165.1 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d1a15a-a05d-4d51-8e82-36d49a4e926a")
@@ -3239,7 +3239,7 @@
 		(uuid "72b4cbe8-7194-435f-bc84-15d133e7d825")
 	)
 	(junction
-		(at 231.14 129.54)
+		(at 214.63 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76bf8a86-cc36-4db3-bff8-3f1501335711")
@@ -3263,7 +3263,7 @@
 		(uuid "8f88da6c-582b-4329-8dec-2a9101cdcb2e")
 	)
 	(junction
-		(at 231.14 116.84)
+		(at 214.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dabbd94-bc3f-4450-83c4-4afa0c7d44a5")
@@ -3281,7 +3281,7 @@
 		(uuid "ac7e0c89-457f-4e04-b364-2303be8efdb7")
 	)
 	(junction
-		(at 251.46 116.84)
+		(at 234.95 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afaddf99-4807-46e8-aafd-66f75796d9fe")
@@ -3305,7 +3305,7 @@
 		(uuid "b88a688b-b04f-4cbb-9808-d4286a5be752")
 	)
 	(junction
-		(at 160.02 107.95)
+		(at 143.51 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c52d8b45-e887-40a7-8f82-33ab7e37624d")
@@ -3317,7 +3317,7 @@
 		(uuid "cb09d60a-7052-4314-9279-e8ec5da38e27")
 	)
 	(junction
-		(at 241.3 129.54)
+		(at 224.79 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e198533e-267d-46e6-8fd3-7a1e111d9536")
@@ -3335,19 +3335,19 @@
 		(uuid "ebc41873-e049-4ef3-a538-7730f7cec38d")
 	)
 	(junction
-		(at 220.98 129.54)
+		(at 204.47 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29480e7-f3c3-42ca-8b5f-648b56391fc2")
 	)
 	(junction
-		(at 138.43 107.95)
+		(at 121.92 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b1b347-3b0d-4c29-9dcb-d9691dfe455b")
 	)
 	(junction
-		(at 160.02 138.43)
+		(at 143.51 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f75b0f9a-a7ce-44ca-8bfa-5e0727cd78bd")
@@ -3550,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 129.54) (xy 241.3 129.54)
+			(xy 234.95 76.2) (xy 224.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 119.38)
+			(xy 234.95 63.5) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 138.43) (xy 181.61 135.89)
+			(xy 165.1 85.09) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 203.2 110.49)
+			(xy 186.69 54.61) (xy 186.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 160.02 107.95)
+			(xy 121.92 54.61) (xy 143.51 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3730,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 138.43) (xy 203.2 138.43)
+			(xy 204.47 85.09) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3740,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 135.89) (xy 116.84 138.43)
+			(xy 100.33 82.55) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 231.14 116.84)
+			(xy 204.47 63.5) (xy 214.63 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3780,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 138.43) (xy 181.61 138.43)
+			(xy 143.51 85.09) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3820,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 181.61 107.95)
+			(xy 143.51 54.61) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3850,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 138.43 107.95)
+			(xy 100.33 54.61) (xy 121.92 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 231.14 127)
+			(xy 214.63 76.2) (xy 214.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3930,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 160.02 110.49)
+			(xy 143.51 54.61) (xy 143.51 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 220.98 119.38)
+			(xy 204.47 63.5) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4060,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 220.98 129.54)
+			(xy 214.63 76.2) (xy 204.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4070,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 116.84) (xy 251.46 116.84)
+			(xy 224.79 63.5) (xy 234.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 220.98 127)
+			(xy 204.47 76.2) (xy 204.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4140,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 116.84) (xy 231.14 119.38)
+			(xy 214.63 63.5) (xy 214.63 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 107.95) (xy 203.2 107.95)
+			(xy 165.1 54.61) (xy 186.69 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 116.84 107.95)
+			(xy 100.33 57.15) (xy 100.33 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4220,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 116.84) (xy 261.62 119.38)
+			(xy 245.11 63.5) (xy 245.11 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4270,7 +4270,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 127) (xy 261.62 129.54)
+			(xy 245.11 73.66) (xy 245.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 261.62 116.84)
+			(xy 234.95 63.5) (xy 245.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4350,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 220.98 107.95)
+			(xy 186.69 54.61) (xy 204.47 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4400,7 +4400,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 231.14 129.54)
+			(xy 224.79 76.2) (xy 214.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4430,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 241.3 127)
+			(xy 224.79 76.2) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4520,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 138.43) (xy 138.43 135.89)
+			(xy 121.92 85.09) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4620,7 +4620,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 138.43 110.49)
+			(xy 121.92 54.61) (xy 121.92 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 138.43) (xy 160.02 135.89)
+			(xy 143.51 85.09) (xy 143.51 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4730,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 116.84) (xy 241.3 119.38)
+			(xy 224.79 63.5) (xy 224.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4760,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 107.95) (xy 220.98 116.84)
+			(xy 204.47 54.61) (xy 204.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4830,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 138.43) (xy 160.02 138.43)
+			(xy 121.92 85.09) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 129.54) (xy 251.46 129.54)
+			(xy 245.11 76.2) (xy 234.95 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 220.98 138.43)
+			(xy 204.47 76.2) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 138.43) (xy 203.2 138.43)
+			(xy 165.1 85.09) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +5040,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 138.43) (xy 138.43 138.43)
+			(xy 100.33 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 107.95) (xy 181.61 110.49)
+			(xy 165.1 54.61) (xy 165.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5110,7 +5110,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 129.54) (xy 251.46 127)
+			(xy 234.95 76.2) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5180,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 116.84) (xy 241.3 116.84)
+			(xy 214.63 63.5) (xy 224.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5230,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 138.43) (xy 203.2 135.89)
+			(xy 186.69 85.09) (xy 186.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5545,7 +5545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "035b8b29-655b-4a70-af82-7ed34d74b105")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 77.1652 134.62 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -5633,11 +5633,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U403")
+					(reference "U404")
 					(unit 4)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U303")
+					(reference "U304")
 					(unit 4)
 				)
 			)
@@ -5645,7 +5645,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC86")
-		(at 116.84 123.19 0)
+		(at 100.33 69.85 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5653,7 +5653,7 @@
 		(dnp no)
 		(uuid "129f5f11-f250-4f60-98fa-1ddde599fc62")
 		(property "Reference" "U301"
-			(at 123.19 121.9199 0)
+			(at 106.68 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5662,7 @@
 			)
 		)
 		(property "Value" "74HC86"
-			(at 123.19 124.4599 0)
+			(at 106.68 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,8 +5670,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 116.84 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5680,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
-			(at 116.84 123.19 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
-			(at 116.84 123.19 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 123.19 0)
+		(at 214.63 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5763,7 +5763,7 @@
 		(fields_autoplaced yes)
 		(uuid "17a95486-dbed-46ec-9053-3824b3f9f61c")
 		(property "Reference" "C302"
-			(at 234.95 121.9199 0)
+			(at 218.44 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,8 +5771,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 234.95 124.4599 0)
+		(property "Value" "0.1uF"
+			(at 218.44 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,8 +5780,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.1052 127 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 215.5952 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 123.19 0)
+			(at 214.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 231.14 123.19 0)
+			(at 214.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c359377-6a86-46cb-b4b5-a3bbbb3e190f")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 51.7652 101.6 0)
 			(effects
 				(font
@@ -5852,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -5924,11 +5924,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U403")
+					(reference "U404")
 					(unit 1)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U303")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -5944,7 +5944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db1fbe4-389f-4172-99f0-3a9529f2de1d")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 51.7652 137.16 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 146.05 0)
 			(effects
 				(font
@@ -6032,11 +6032,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U403")
+					(reference "U404")
 					(unit 3)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U303")
+					(reference "U304")
 					(unit 3)
 				)
 			)
@@ -6044,7 +6044,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC86")
-		(at 138.43 123.19 0)
+		(at 121.92 69.85 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6052,8 +6052,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30099b82-be70-4f0a-b369-da8f2708b29a")
-		(property "Reference" "U303"
-			(at 144.78 121.9199 0)
+		(property "Reference" "U304"
+			(at 128.27 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6062,7 @@
 			)
 		)
 		(property "Value" "74HC86"
-			(at 144.78 124.4599 0)
+			(at 128.27 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,8 +6070,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 138.43 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6080,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
-			(at 138.43 123.19 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6089,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
-			(at 138.43 123.19 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,11 +6142,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U403")
+					(reference "U404")
 					(unit 5)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U303")
+					(reference "U304")
 					(unit 5)
 				)
 			)
@@ -6178,7 +6178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 39.37 0)
 			(effects
 				(font
@@ -6270,7 +6270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3da1b7-beb5-446a-b944-f1aa591f5688")
-		(property "Reference" "U305"
+		(property "Reference" "U303"
 			(at 71.12 165.0999 90)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74HC32"
 			(at 71.12 167.6399 90)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -6360,11 +6360,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U405")
+					(reference "U403")
 					(unit 4)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U305")
+					(reference "U303")
 					(unit 4)
 				)
 			)
@@ -6396,7 +6396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 72.39 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 181.61 123.19 0)
+		(at 165.1 69.85 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6488,8 +6488,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6416ad5e-033f-432c-b3d9-132a696eac92")
-		(property "Reference" "U304"
-			(at 187.96 121.9199 0)
+		(property "Reference" "U305"
+			(at 171.45 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,8 +6497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08"
-			(at 187.96 124.4599 0)
+		(property "Value" "74HC08"
+			(at 171.45 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,8 +6506,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6516,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 181.61 123.19 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6525,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 181.61 123.19 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,11 +6578,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U404")
+					(reference "U405")
 					(unit 5)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U304")
+					(reference "U305")
 					(unit 5)
 				)
 			)
@@ -6598,7 +6598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e37fb0e-bb39-4aa4-a29c-402c7ced29d5")
-		(property "Reference" "U305"
+		(property "Reference" "U303"
 			(at 71.12 129.5399 90)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74HC32"
 			(at 71.12 132.0799 90)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 66.04 130.81 0)
 			(effects
 				(font
@@ -6688,11 +6688,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U405")
+					(reference "U403")
 					(unit 3)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U305")
+					(reference "U303")
 					(unit 3)
 				)
 			)
@@ -6708,7 +6708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703085e6-cc63-422c-a443-0f1ec7111700")
-		(property "Reference" "U304"
+		(property "Reference" "U305"
 			(at 77.4617 109.22 0)
 			(effects
 				(font
@@ -6716,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 77.4617 111.76 0)
 			(effects
 				(font
@@ -6724,7 +6724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 118.11 0)
 			(effects
 				(font
@@ -6796,11 +6796,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U404")
+					(reference "U405")
 					(unit 2)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U304")
+					(reference "U305")
 					(unit 2)
 				)
 			)
@@ -6816,7 +6816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714aca89-e18c-497a-afe5-2f5f96f71ff4")
-		(property "Reference" "U304"
+		(property "Reference" "U305"
 			(at 52.0617 147.32 0)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 52.0617 149.86 0)
 			(effects
 				(font
@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 156.21 0)
 			(effects
 				(font
@@ -6904,11 +6904,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U404")
+					(reference "U405")
 					(unit 3)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U304")
+					(reference "U305")
 					(unit 3)
 				)
 			)
@@ -6924,7 +6924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71797e0f-bb62-4414-bf1f-3d501aaa1174")
-		(property "Reference" "U305"
+		(property "Reference" "U303"
 			(at 71.12 93.9799 90)
 			(effects
 				(font
@@ -6933,7 +6933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74HC32"
 			(at 71.12 96.5199 90)
 			(effects
 				(font
@@ -6942,7 +6942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 66.04 95.25 0)
 			(effects
 				(font
@@ -7014,11 +7014,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U405")
+					(reference "U403")
 					(unit 2)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U305")
+					(reference "U303")
 					(unit 2)
 				)
 			)
@@ -7034,7 +7034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9227d35b-a907-4569-9f71-68393f413253")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 77.1652 99.06 0)
 			(effects
 				(font
@@ -7050,7 +7050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 107.95 0)
 			(effects
 				(font
@@ -7122,11 +7122,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U403")
+					(reference "U404")
 					(unit 2)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U303")
+					(reference "U304")
 					(unit 2)
 				)
 			)
@@ -7142,7 +7142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a216a07e-7282-40ef-b203-837e82e53e50")
-		(property "Reference" "U304"
+		(property "Reference" "U305"
 			(at 52.0617 111.76 0)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 52.0617 114.3 0)
 			(effects
 				(font
@@ -7158,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -7230,11 +7230,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U404")
+					(reference "U405")
 					(unit 1)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U304")
+					(reference "U305")
 					(unit 1)
 				)
 			)
@@ -7250,7 +7250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f7b869-6276-4d87-8fdf-62c752493b99")
-		(property "Reference" "U305"
+		(property "Reference" "U303"
 			(at 71.12 58.4199 90)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74HC32"
 			(at 71.12 60.9599 90)
 			(effects
 				(font
@@ -7268,7 +7268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 66.04 59.69 0)
 			(effects
 				(font
@@ -7340,11 +7340,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U405")
+					(reference "U403")
 					(unit 1)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U305")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -7352,7 +7352,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 160.02 123.19 0)
+		(at 143.51 69.85 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7361,7 +7361,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae0bc3a-b484-4abc-b91d-dd37eb653bcc")
 		(property "Reference" "U302"
-			(at 166.37 121.9199 0)
+			(at 149.86 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,8 +7369,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08"
-			(at 166.37 124.4599 0)
+		(property "Value" "74HC08"
+			(at 149.86 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,8 +7378,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 160.02 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 143.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 160.02 123.19 0)
+			(at 143.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7397,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 160.02 123.19 0)
+			(at 143.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -7586,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 77.4617 76.2 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 203.2 123.19 0)
+		(at 186.69 69.85 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7686,8 +7686,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41a0d57-110b-4a49-a72a-1a6589fe6a76")
-		(property "Reference" "U305"
-			(at 209.55 121.9199 0)
+		(property "Reference" "U303"
+			(at 193.04 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,8 +7695,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
-			(at 209.55 124.4599 0)
+		(property "Value" "74HC32"
+			(at 193.04 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,8 +7704,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +7714,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 203.2 123.19 0)
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +7723,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 203.2 123.19 0)
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,11 +7776,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U405")
+					(reference "U403")
 					(unit 5)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U305")
+					(reference "U303")
 					(unit 5)
 				)
 			)
@@ -7788,7 +7788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 261.62 123.19 0)
+		(at 245.11 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7797,7 +7797,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ce4717-69f5-4dfa-910f-235a0e011462")
 		(property "Reference" "C305"
-			(at 265.43 121.9199 0)
+			(at 248.92 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,8 +7805,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 265.43 124.4599 0)
+		(property "Value" "0.1uF"
+			(at 248.92 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,8 +7814,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 262.5852 127 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 246.0752 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 123.19 0)
+			(at 245.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7833,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 261.62 123.19 0)
+			(at 245.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 138.43 0)
+		(at 143.51 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7871,7 +7871,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba25d2ba-1191-40e6-bc2d-6979d814cf9f")
 		(property "Reference" "#PWR0302"
-			(at 160.02 144.78 0)
+			(at 143.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 143.51 0)
+			(at 143.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +7888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 138.43 0)
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +7897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 138.43 0)
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 138.43 0)
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.98 123.19 0)
+		(at 204.47 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7941,7 +7941,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba9d6f93-95b3-4e44-9b2c-c68b5ece2037")
 		(property "Reference" "C301"
-			(at 224.79 121.9199 0)
+			(at 208.28 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,8 +7949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 224.79 124.4599 0)
+		(property "Value" "0.1uF"
+			(at 208.28 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,8 +7958,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 221.9452 127 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 205.4352 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +7968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 123.19 0)
+			(at 204.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +7977,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 220.98 123.19 0)
+			(at 204.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.46 123.19 0)
+		(at 234.95 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +8015,7 @@
 		(fields_autoplaced yes)
 		(uuid "baa38c0f-53f2-42c7-ae76-9a6e9abea398")
 		(property "Reference" "C304"
-			(at 255.27 121.9199 0)
+			(at 238.76 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,8 +8023,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 255.27 124.4599 0)
+		(property "Value" "0.1uF"
+			(at 238.76 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,8 +8032,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.4252 127 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 235.9152 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 123.19 0)
+			(at 234.95 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8051,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 123.19 0)
+			(at 234.95 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8080,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 107.95 0)
+		(at 143.51 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8089,7 +8089,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdf059aa-6b7e-4318-a91a-3453f173de0d")
 		(property "Reference" "#PWR0301"
-			(at 160.02 111.76 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8098,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 102.87 0)
+			(at 143.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 107.95 0)
+			(at 143.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 107.95 0)
+			(at 143.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 107.95 0)
+			(at 143.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 52.0617 78.74 0)
 			(effects
 				(font
@@ -8174,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 85.09 0)
 			(effects
 				(font
@@ -8274,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 77.4617 40.64 0)
 			(effects
 				(font
@@ -8282,7 +8282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 46.99 0)
 			(effects
 				(font
@@ -8366,7 +8366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 241.3 123.19 0)
+		(at 224.79 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8375,7 +8375,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcfacc32-8402-4f5c-b0ff-444059adc13a")
 		(property "Reference" "C303"
-			(at 245.11 121.9199 0)
+			(at 228.6 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,8 +8383,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 245.11 124.4599 0)
+		(property "Value" "0.1uF"
+			(at 228.6 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,8 +8392,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.2652 127 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 225.7552 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 123.19 0)
+			(at 224.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8411,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 241.3 123.19 0)
+			(at 224.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd13afa4-5c8f-4c33-a725-9df362384c18")
-		(property "Reference" "U304"
+		(property "Reference" "U305"
 			(at 77.4617 144.78 0)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 77.4617 147.32 0)
 			(effects
 				(font
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 77.47 153.67 0)
 			(effects
 				(font
@@ -8536,11 +8536,11 @@
 		(instances
 			(project "BRISC8"
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/2f6a5333-6a6e-44ea-bb96-99fba4e48bd6"
-					(reference "U404")
+					(reference "U405")
 					(unit 4)
 				)
 				(path "/e198223b-f7bd-4b26-ae2e-259db8d07fb6/d081cdcb-1181-4657-9580-dc3ba9a85775/1ff29d81-6c83-4004-b61e-ee24b69c0640/3900a2fb-e37e-4dfa-89d5-188b43fa74dd"
-					(reference "U304")
+					(reference "U305")
 					(unit 4)
 				)
 			)
@@ -8564,7 +8564,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 52.0617 43.18 0)
 			(effects
 				(font
@@ -8572,7 +8572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 49.53 0)
 			(effects
 				(font
@@ -8680,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 74.93 0)
 			(effects
 				(font
